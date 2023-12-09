@@ -65,7 +65,7 @@ cp /root/.ssh/authorized_keys /home/leon1/.ssh/
 We'll then need to set the correct permissions of the `.ssh` directory to the new user.
 
 ```
-chown -R leon1:leon1 /home/user1/.ssh
+chown -R leon1:leon1 /home/leon1/.ssh
 ```
 
 After that step, you should be able to connect to the server using 
